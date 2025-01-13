@@ -36,5 +36,19 @@ Key learnings -
 - Learned to use jsonWebTokens for authentications.
 - And finally learned to effectively handle the errors.
 
+Milestone 4: Project Overview -
+
+In this milestone we learned
+
+User Model: I created a User Model, which defines how user data (like name, email, and password) will be structured in the database using MongoDB. This model acts as a blueprint, ensuring data consistency and organization.
+
+User Controller: I created a User Controller to manage interactions with the user data, such as handling sign-up requests, saving user data to the database, and responding to user actions. The controller acts like a manager, overseeing what happens when users interact with the app.
+
+Multer for File Uploads: I enabled Multer, a tool that facilitates file uploads (like profile pictures) by managing and storing the uploaded files on the server. It helps keep track of user files in the backend.
+
+
+
+
+
 
 
