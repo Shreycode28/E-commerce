@@ -13,4 +13,4 @@ Product page : All the products
 Orders page : Shows orders for each user
 Payment gateway
 
-#milestone 3
+
