@@ -13,6 +13,8 @@ Product page : All the products
 Orders page : Shows orders for each user
 Payment gateway
 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 Milestone - 2
 
 A simple and resoponsive login page using react.
@@ -23,9 +25,9 @@ User-Friendly Design: Clean and responsive interface optimized for various scree
 Technologies Used
 React: For building the user interface. CSS: For styling the components and ensuring responsiveness. JavaScript (ES6): Adding interactivity and validation logic within React.
 
-Milestone - 3
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-## Milestone 3: Project Overview - 
+Milestone - 3
 
 In this milestone we have learned how to setup basic backend configurations - 
 
@@ -35,6 +37,8 @@ Key learnings -
 - Learned how to use the mongodb database and connect it with our server code.
 - Learned to use jsonWebTokens for authentications.
 - And finally learned to effectively handle the errors.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Milestone 4: Project Overview -
 
@@ -46,6 +50,15 @@ User Controller: I created a User Controller to manage interactions with the use
 
 Multer for File Uploads: I enabled Multer, a tool that facilitates file uploads (like profile pictures) by managing and storing the uploaded files on the server. It helps keep track of user files in the backend.
 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Milestone 5: Project Overview -
+In this milestone we focused on creating a signup page for new users visiting the website,
+
+Key Learnings -
+
+We Learned how to create the UI for the Signup page using React and Tailwind CSS.
+We also learned how to use RegEx (Regular expressions) for the validation of the inputs on the signup page.
 
 
 
