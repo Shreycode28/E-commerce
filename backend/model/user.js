@@ -73,27 +73,27 @@ const userSchema=new mongoose.Schema({
 
 //Hash password
 
-userSchema.pre("save",async function(next){
-    if(!this.isModified("password")){
-        next();
-    }
-    this.password=await bcrypt.hash(this.password,10)
+// userSchema.pre("save",async function(next){
+//     if(!this.isModified("password")){
+//         next();
+//     }
+//     this.password=await bcrypt.hash(this.password,10)
 
-})
+// })
 
-//jsonwebtoken
+// //jsonwebtoken
 
-userSchema.methods.getJwtToken = function(){
-    return JsonWebTokenError.sign({id:this_id},process.env.JWT_SECRET_KEY,{
-        expiresIn:process.env.JWT_EXPIRES,
+// userSchema.methods.getJwtToken = function(){
+//     return JsonWebTokenError.sign({id:this_id},process.env.JWT_SECRET_KEY,{
+//         expiresIn:process.env.JWT_EXPIRES,
 
-    })
-}
+//     })
+// }
 
-//compare password
+// //compare password
 
-userSchema.methods.comparePassword=async function(enteredPassword){
-    return await bcrypt.compare(enteredPassword,this.password)
-}
+// userSchema.methods.comparePassword=async function(enteredPassword){
+//     return await bcrypt.compare(enteredPassword,this.password)
+// }
 
 module.exports=mongoose.model('User',userSchema)
