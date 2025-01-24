@@ -67,7 +67,31 @@ Milestone 6: Project Overview -
 Understand how to encrypt the passwords before saving.
 Know how to store complete user data securely in the database.
 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+Milestone 7: Project Overview -
+
+Create Login Endpoint:
+
+Accept user credentials (email/username and password).
+Retrieve the corresponding user from the database
+
+Validate Password:
+
+Used bcrypt to hash the entered password.
+Compared it with the stored hashed password for authentication.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Milestone 8: Project Overview -
+
+Created the Card Component:
+
+Designed a reusable card component with props for product details (e.g., name, image, price).
+
+Designed the Homepage Layout:
+
+Did set up for a grid layout or flexbox for displaying multiple cards neatly.
 
 
 
