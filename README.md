@@ -81,7 +81,7 @@ Validate Password:
 Used bcrypt to hash the entered password.
 Compared it with the stored hashed password for authentication.
 
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Milestone 8: Project Overview -
 
@@ -92,6 +92,16 @@ Designed a reusable card component with props for product details (e.g., name, i
 Designed the Homepage Layout:
 
 Did set up for a grid layout or flexbox for displaying multiple cards neatly.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Milestone 9:Project Overview -
+
+Created the form for products
+
+This form will take multiple product images as input.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 
