@@ -3,7 +3,7 @@ import { AiOutlineEye, AiOutlineEyeInvisible } from "react-icons/ai";
 import { Link } from "react-router-dom";
 import { RxAvatar } from "react-icons/rx";
 import axios from "axios";
-import ValidationFormObject from "../../../validation";
+import ValidationFormObject from "../../validation.js";
 
 const Signup = () => {
   const [email, setEmail] = useState("");
@@ -23,9 +23,9 @@ const Signup = () => {
   };
 
   const validateFields = () => {
-    const nameError = ValidationFormObject.validateName(name);
-    const emailError = ValidationFormObject.validateEmail(email);
-    const passwordError = ValidationFormObject.validatePassword(password);
+    const nameError = ValidationFormObject.validteName(name);
+    const emailError = ValidationFormObject.validteEmail(email);
+    const passwordError = ValidationFormObject.validtePass(password);
 
     const newErrors = {};
     if (nameError !== true) newErrors.name = nameError;

@@ -8,7 +8,7 @@ const sendMail=require('../utils/sendMail')
 const router = express.Router();
 const { upload } = require("../multer");
 const ErrorHandler = require("../utils/ErrorHandler");
-const catchAsyncErrors = require("../middleware/catchAsyncError"); // Import catchAsyncErrors
+const catchAsyncErrors = require("../middleware/catchAsyncErrors"); // Import catchAsyncErrors
 
 // create user
 router.post(
@@ -54,32 +54,24 @@ router.post(
     })
 );
 
-
-router.post('/',catchAsyncErrors(async(req,res,nex)=>{
+router.post('/login',catchAsyncErrors(async(req,res,next)=>{
     console.log('Creating User...')
-    const {email,password} = req.body
-
+    const {email,password}=req.body
     if(!email || !password){
-        return next(new ErrorHandler("pls provide credentials!",400))
+        return next(new ErrorHandler("please provide credentials!",400))
     }
-
     const user = await User.findOne({email}).select("+password")
     if(!user){
-        return next(new ErrorHandler("Invalid Emai or Password",401))
+        return next(new ErrorHandler("Invaild Email or Password",401))
     }
-
     const isPasswordMatched = await bcrypt.compare(password,user.password)
-
     console.log("At auth","Password:",password,"Hash:",user.password)
-
     if(!isPasswordMatched){
-        return next(new ErrorHaandler("Invlaid Email or Password",401))
+        return next(new ErrorHandler("Invaild Email or Password",401))
     }
-
     user.password = undefined;
-
     res.status(200).json({
-        success:true,
+        success: true,
         user
     })
 
