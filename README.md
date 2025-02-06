@@ -113,6 +113,9 @@ Validated and saved the product details to MongoDB.
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+Milestone 11:Project Overview -
 
+Write an endpoint that will send data from extract and send data from mongodb.
+Receive data at frontend - How to display that data dynamically using product card created earlier.
 
 
