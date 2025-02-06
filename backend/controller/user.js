@@ -32,6 +32,7 @@ router.post(
                 }
             }
             return next(new ErrorHandler("User already exists", 400));
+
         }
 
         let fileUrl = "";
@@ -86,3 +87,4 @@ router.post('/',catchAsyncErrors(async(req,res,nex)=>{
 }))
 
 module.exports = router;
+
