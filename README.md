@@ -103,6 +103,16 @@ This form will take multiple product images as input.
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+Milestone 10:Project Overview -
+
+Wrote product schema
+Created an end point to validate and store product details in mongodb.
+Defined the structure of product data (e.g., name, description, price, image URL) using Mongoose. -Ensured each field had proper validation (e.g., required fields, correct data types).
+Built a POST endpoint to receive product data.
+Validated and saved the product details to MongoDB.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 
 
 
