@@ -5,9 +5,10 @@ if(process.env.NODE_ENV !=="PRODUCTION"){
 }
 
 const app=require('./App');
-
+const database=require('./db/Database')
 //Hadling uncaught exceptions
 
+database();
 process.on("uncaughtException",(err)=>{
     console.log(`Error:${err.message}`)
     console.log(`shutting down the server for handling uncaught exception`)
