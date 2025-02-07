@@ -8,7 +8,7 @@ const sendMail=require('../utils/sendMail')
 const router = express.Router();
 const { upload } = require("../multer");
 const ErrorHandler = require("../utils/ErrorHandler");
-const catchAsyncErrors = require("../middleware/catchAsyncErrors"); // Import catchAsyncErrors
+const catchAsyncErrors = require("../middleware/catchAsyncError"); // Import catchAsyncErrors
 
 // create user
 router.post(
