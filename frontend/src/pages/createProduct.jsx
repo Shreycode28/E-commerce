@@ -162,7 +162,7 @@ const CreateProduct=()=>{
                         <label className='pb-1 block text-gray-600 font-medium'>
                             Upload Images <span className='text-red-500'>*</span>
                         </label>
-                        <input type='file' id='upload' className='hidden' multiple onChange={handleImageChange} required/>
+                        <input type='file' id='upload' name="image" className='hidden' multiple onChange={handleImageChange} required/>
                         <label htmlFor='upload' className='cursor-pointer flex items-center justify-center w-[100px] h-[100px] bg-gray-700 rounded-md hover:bg-gray-300 transition-colors duration-200'>
                             <AiOutlinePlusCircle size={30} color='#555555'/>
                         </label>
