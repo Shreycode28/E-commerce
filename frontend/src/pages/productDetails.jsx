@@ -11,7 +11,7 @@ const ProductDetails = () => {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
   const [quantity, setQuantity] = useState(1);
-  const email="avishkar@gmail.com";
+  const email="vraj@gmail.com";
 
   useEffect(() => {
     const fetchProduct = async () => {
