@@ -52,7 +52,7 @@ export default function CartProduct({ _id, name, images, quantity, price }) {
             });
     };
 
-    const currentImage = images?.length > 0 ? images[currentIndex] : "";
+    const currentImage = images?.length > 0 ? images[currentIndex] : "./assets/default.png";
 
 
     return (
