@@ -68,6 +68,7 @@ Key learnings -
 - And finally learned to effectively handle the errors.
 
 
+
 ## Milestone 4: Project Overview -
 
 In this milestone we learned the following things -
@@ -113,6 +114,7 @@ In this milestone we have simply created a form named create product to add prod
 The Key features of the form are - Name of product , its description , price , etc... and also a file upload feature to upload the pictures of the product.
 
 ## Milestone 10: Project Overview -
+
 
 In this milestone we learned how to setup the backend for the createproduct page that we created in milestone9.
 
@@ -169,3 +171,7 @@ Key learnings -
 
 - We have create an endpoint to receive request from cart page.
 - We have also create an backend endpoint to fetch all the products inside cart with user mail.
+
+## Milestone 19: Project Overview - 
+
+- In this milestone we learned how to create the **Add to cart** functionality to our e-commerce website.
