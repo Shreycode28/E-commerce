@@ -143,5 +143,6 @@ router.get("/addresses", catchAsyncErrors(async (req, res, next) => {
     });
 }
 ));
+
 module.exports = router;
 
