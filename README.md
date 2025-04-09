@@ -187,26 +187,3 @@ In this milestone we created a create address page to add user address to the pr
 In this milestone we completed the backend setup for the create Address page.
 
 
-## Milestone 23: Project Overview -
-
-In this milestone we simply created the frontend for the select address page in our ecommerce website.
-
-## Milestone 24: Project Overview -
-
-In this milestone we created the frontend for the orderComfinmation page in our E - commerce website.
-
-## Milestone 25: Project Overview -
-
-In this milestone we configured the backend for the place order page.
-
-## Milestone 26: Project Overview -
-
-In this milestone we have created the endpoint for the my-orders page.
-
-## Milestone 27: Project Overview -
-
-In this milestone we have created the frontend part for the myOrders page.
-
-## Milestone 28: Project Overview -
-
-In this milestone we have configured the backend for the myOrders page.```
