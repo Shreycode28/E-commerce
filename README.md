@@ -1,186 +1,179 @@
-# E--commerce-website
+E-commerce Website
+Milestone 1: Project Overview
+In this milestone, we demonstrated the working of the MERN stack. Using the MERN stack, we are building an e-commerce website.
 
-****
+M - MongoDB: Used to handle databases
+E - Express.js: Used to handle servers
+R - React.js: Used for frontend
+N - Node.js: Used with Express.js for server handling
 
-## Milestone 1: Project Overview -
+Project Features:
+Pages
+Authentication
 
-In this milestone, we demonstrated the working of MERN Stack. And by using the MERN stack we are going to bulid an e-commerce website
+Login / Signup functionality
 
-Which is,
+User validation and session management
 
-**M - MongoDB** - Used to handle databases  
-**E - Express.js** - Used to easily handle servers  
-**R - React.js** - Used for frontend  
-**N - Node.js** - Used with express.js for server handling
+Product Page
 
-### **Project Features :-**
+Displays all available products
 
-#### **Pages**
-1. **Authentication**
-   - Login / Signup functionality.
-   - User validation and session management.
-2. **Product Page**
-   - Displays all available products.
-   - Allows users to view product details.
-3. **Orders Page**
-   - Lists all orders made by the user.
-   - Displays order history and details.
-4. **Payment Gateway**
-   - Integrates a secure payment system.
-   - Handles transactions seamlessly.
+Allows users to view product details
 
-****
+Orders Page
 
-## Milestone 2: Project Overview - 
+Lists all orders made by the user
 
-In this milestone we learned how to setup a development environment for a backend project and also started with making Basic UI for Login page.
+Displays order history and details
 
-Key Learnings:
-- Learned Tailwind CSS for login page UI.
-- Learned to setup basic tools used in backend like:
-  - express, mongoose, dotenv, nodemon, cookie-parser, nodemailer
-- Learned basic React routing.
+Payment Gateway
 
-****
+Integrates a secure payment system
 
-## Milestone 3: Project Overview - 
+Handles transactions seamlessly
 
-In this milestone we learned how to setup basic backend configurations.
+Milestone 2: Project Overview
+We learned how to set up a backend development environment and started creating the basic UI for the login page.
 
-Key Learnings:
-- Learned how to use Express.js.
-- Learned how to connect MongoDB to the server.
-- Learned to use jsonWebTokens for authentication.
-- Learned to handle errors effectively.
+Key Learnings
 
-****
+Used Tailwind CSS for the login page UI
 
-## Milestone 4: Project Overview -
+Set up backend tools: express, mongoose, dotenv, nodemon, cookie-parser, nodemailer
 
-Key Learnings:
-- Learned how to use Mongoose schemas.
-- Learned how to install and use Multer.
-- Learned password hashing using Bcrypt.
-- Further usage of jsonWebTokens.
+Learned basic React routing
 
-****
+Milestone 3: Project Overview
+Learned basic backend configurations.
 
-## Milestone 5: Project Overview -
+Key Learnings
 
-Key Learnings:
-- Created Signup UI with React and Tailwind CSS.
-- Used RegEx for validating inputs on the signup page.
+Used Express.js
 
-****
+Connected MongoDB to the server
 
-## Milestone 6: Project Overview -
+Used JSON Web Tokens (JWT) for authentication
 
-Key Learnings:
-- Learned to encrypt and store passwords using Bcrypt.
-- Stored new user data into the database.
+Error handling basics
 
-****
+Milestone 4: Project Overview
+Key Learnings
 
-## Milestone 7: Project Overview -
+Used Mongoose schemas
 
-Key Learnings:
-- Implemented login/signup logic.
-- Allowed login only if user exists in the database.
+Installed and configured Multer
 
-****
+Used Bcrypt for password hashing
 
-## Milestone 8: Project Overview -
+Deepened understanding of JWT usage
 
-Key Learnings:
-- Created frontend HomePage.
-- Learned React routing for the homepage.
+Milestone 5: Project Overview
+Key Learnings
 
-****
+Created Signup UI using React and Tailwind CSS
 
-## Milestone 9: Project Overview -
+Used RegEx for form input validation
 
-Key Learnings:
-- Created a form to add products.
-- Used React.js and Tailwind CSS.
-- Implemented file upload for product images.
+Milestone 6: Project Overview
+Key Learnings
 
-****
+Encrypted and stored passwords using Bcrypt
 
-## Milestone 10: Project Overview -
+Stored new user data into the database
 
-Key Learnings:
-- Set up backend for the create product page.
+Milestone 7: Project Overview
+Key Learnings
 
-****
+Implemented login/signup logic
 
-## Milestone 11: Project Overview -
+Allowed login only for existing users
 
-Key Learnings:
-- Created an API to extract product data from frontend and display on homepage.
+Milestone 8: Project Overview
+Key Learnings
 
-****
+Created frontend for the Home Page
 
-## Milestone 12: Project Overview -
+Learned routing for the homepage in React
 
-Key Learnings:
-- Created API to filter products by email and display dynamically on homepage.
+Milestone 9: Project Overview
+Key Learnings
 
-****
+Created "Create Product" form using React.js and Tailwind CSS
 
-## Milestone 13: Project Overview -
+Included fields for name, description, price, and image upload
 
-Key Learnings:
-- Implemented Edit feature for My Products page.
-- Created pre-filled edit form and backend API to update data.
+Milestone 10: Project Overview
+Key Learnings
 
-****
+Set up backend API for Create Product form
 
-## Milestone 14: Project Overview -
+Milestone 11: Project Overview
+Key Learnings
 
-Key Learnings:
-- Implemented Delete feature for My Products page.
+Created API endpoint to send product data to the homepage
 
-****
+Milestone 12: Project Overview
+Key Learnings
 
-## Milestone 15: Project Overview -
+Created API to filter product data by user email and display it dynamically
 
-Key Learnings:
-- Created a new responsive Navbar with links to all pages.
+Milestone 13: Project Overview
+Key Learnings
 
-****
+Implemented edit functionality on "My Products" page
 
-## Milestone 16: Project Overview -
+Created pre-filled form and API to update product data
 
-Key Learnings:
-- Created product info page with full product data.
-- Implemented quantity and Add to Cart button.
+Milestone 14: Project Overview
+Key Learnings
 
-****
+Implemented delete feature for "My Products" page
 
-## Milestone 17: Project Overview -
+Milestone 15: Project Overview
+Key Learnings
 
-Key Learnings:
-- Edited user schema to store cart products.
-- Created endpoint to save cart product details.
+Created a responsive Navbar linking to all main pages
 
-****
+Milestone 16: Project Overview
+Key Learnings
 
-## Milestone 18: Project Overview -
+Built Product Info Page displaying all product data
 
-Key Learnings:
-- Created API endpoint to handle cart page requests.
-- Fetched cart products from database by user email.
+Added quantity and Add to Cart buttons
 
-****
+Milestone 17: Project Overview
+Key Learnings
 
-## Milestone 19: Project Overview - 
+Updated user schema to store cart items
 
-Key Learnings:
-- Created **Add to Cart** functionality.
+Created backend endpoint to store cart items
 
-****
+Milestone 18: Project Overview
+Key Learnings
 
-## Milestone 20: Project Overview - 
+Created API endpoint to receive cart requests
 
-Key Learnings:
-- Created profile page to show personal details like name and email.
+Implemented backend to fetch cart items using user email
+
+Milestone 19: Project Overview
+Key Learnings
+
+Fully implemented Add to Cart functionality
+
+Milestone 20: Project Overview
+Key Learnings
+
+Created profile page displaying user details like name and email
+
+Milestone 21: Project Overview
+Key Learnings
+
+Created "Create Address" page
+
+Allows users to add their address to their profile page
+
+Milestone 22: Project Overview
+Key Learnings
+
+Completed backend setup for the "Create Address" page
